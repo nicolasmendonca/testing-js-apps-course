@@ -1,0 +1,24 @@
+{
+  "name": "testing-js-apps-course",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prepare": "is-ci || husky install",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicolasmendonca/testing-js-apps-course.git"
+  },
+  "author": "Nicolas Mendonca (github.com/nicolasmendonca)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nicolasmendonca/testing-js-apps-course/issues"
+  },
+  "homepage": "https://github.com/nicolasmendonca/testing-js-apps-course#readme",
+  "devDependencies": {
+    "husky": "^8.0.1",
+    "is-ci": "^3.0.1"
+  }
+}
