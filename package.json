@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "prepare": "is-ci || husky install",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -19,6 +19,7 @@
   "homepage": "https://github.com/nicolasmendonca/testing-js-apps-course#readme",
   "devDependencies": {
     "husky": "^8.0.1",
-    "is-ci": "^3.0.1"
+    "is-ci": "^3.0.1",
+    "jest": "^28.1.1"
   }
 }
