@@ -1,0 +1,4 @@
+tasks:
+  - name: Install & test
+    init: npm install
+    command: npm run test -- --watch
